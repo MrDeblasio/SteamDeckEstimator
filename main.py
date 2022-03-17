@@ -42,7 +42,7 @@ def main():
 
 	print("I highly recommend checking out the Reddit post I made (in the comment on the repl) to get a better understanding this tool. Please also check the comments on the reddit post for any questions you have, as they might already be answered.")
 
-	customProductionNumbers = input("If you want to input your own production numbers, you can do so now. Please make sure that your estimated production is already divided by 3, so that you can get the production for one model. If you don't, please press enter. The production numbers must be in the form of an array, like so: 10000 10000 10000. ")
+	customProductionNumbers = input("If you want to input your own production numbers, you can do so now. If you don't, please press enter. Please make sure that your estimated production is already divided by 3, so that you can get the production for one model. The production numbers must be in the form of an array, like so: 10000 10000 10000. Press enter to skip.")
 
 	if (customProductionNumbers == ""):
 		pass
